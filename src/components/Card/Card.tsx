@@ -11,15 +11,15 @@ const Card:React.FC<ICard> = (props) => {
             <SC.StatusCon>
                 <p>{status}</p>
             </SC.StatusCon>
-            <div>
-                <p>PubSC.CardStyledshed {date}</p>
-            </div>
-            <h3>{title}</h3>
-            <p>{content}</p>
-            <div>
+            <SC.DateCon>
+                <p>Published {date}</p>
+            </SC.DateCon>
+            <SC.Title>{title}</SC.Title>
+            <SC.Content>{content}</SC.Content>
+            <SC.AuthorCon>
                 <img src={authorAvatar} alt="author" />
                 <p>{author}</p>
-            </div>
+            </SC.AuthorCon>
         </SC.CardStyled>
      );
 }

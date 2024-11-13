@@ -1,10 +1,12 @@
+import * as SC from "./CardStyled"
+
 import data from "../../data/data.json"
 import { handleDataCard } from "../../utils/services/handleDataCard";
 
 const CardList = () => {
-    return ( <ul>
+    return ( <SC.CardList>
         {handleDataCard(data)}
-    </ul> );
+    </SC.CardList> );
 }
  
 export default CardList;

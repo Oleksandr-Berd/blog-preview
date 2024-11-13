@@ -11,7 +11,7 @@ body {
   }
 
   @font-face {
-  font-family: "Figtree";
+  font-family: "Figtrees";
   src: local("Figtree"),
     url("../src/assets/fonts/Figtree/Figtree-VariableFont_wght.ttf") format("truetype");
 }
