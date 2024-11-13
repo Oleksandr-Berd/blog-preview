@@ -9,6 +9,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   }
+
+  @font-face {
+  font-family: "Figtree";
+  src: local("Figtree"),
+    url("../src/assets/fonts/Figtree/Figtree-VariableFont_wght.ttf") format("truetype");
+}
+
   } 
   ul, nav{ 
   list-style: none; 
